@@ -322,7 +322,7 @@ def req_ensure_encoding():
 
 def req_ensure_env():
     log.info("Ensuring we're in the right environment")
-
+    '''
     if os.environ.get("APP_ENV") != "docker" and not os.path.isdir(
         b64decode("LmdpdA==").decode("utf-8")
     ):
@@ -332,7 +332,7 @@ def req_ensure_env():
             ).decode("utf-8")
         )
         bugger_off()
-
+    '''
     try:
         assert os.path.isdir("config"), 'folder "config" not found'
         assert os.path.isdir("musicbot"), 'folder "musicbot" not found'
