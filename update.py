@@ -51,7 +51,7 @@ def main():
     # Make sure that we're in a Git repository
     '''
     if not os.path.isdir(".git"):
-        raise EnvironmentError("This isn't a Git repository.")'''
+        raise EnvironmentError("This isn't a Git repository.")
 
     # Make sure that we can actually use Git on the command line
     # because some people install Git Bash without allowing access to Windows CMD
@@ -96,7 +96,7 @@ def main():
         raise OSError(
             "Could not update the bot. You will need to run 'git pull' yourself."
         )
-
+    '''
     update_deps()
     finalize()
 
