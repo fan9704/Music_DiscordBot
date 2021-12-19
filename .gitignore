@@ -9,7 +9,6 @@ dectalk/
 discord.log
 logs/
 data/
-
 config/my_options.ini
 config/permissions.ini
 config/aliases.json
