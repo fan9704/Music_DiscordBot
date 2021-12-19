@@ -37,7 +37,7 @@ class Config:
         self._confpreface2 = "An error has occured validating the config:\n"
 
         self._login_token = config.get(
-            "Credentials", "Token", int(os.environ.get('TOKEN'))
+            "Credentials", "Token", os.environ.get('TOKEN')
         )
 
         self.auth = ()
