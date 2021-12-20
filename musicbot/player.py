@@ -331,7 +331,7 @@ class MusicPlayer(EventEmitter, Serializable):
                     PCMVolumeTransformer(
                         FFmpegPCMAudio(
                             #executable="C:/path/ffmpeg.exe",
-                            executable=entry.filename,
+                            source=entry.filename,
                             before_options=boptions,
                             options=aoptions,
                             stderr=subprocess.PIPE,
