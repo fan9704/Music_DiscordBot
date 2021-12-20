@@ -7,3 +7,5 @@ cffi --only-binary all; sys_platform == 'win32'
 pipenv
 ffmpeg
 discord
+youtube-dl
+requests

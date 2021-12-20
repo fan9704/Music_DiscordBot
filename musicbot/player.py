@@ -330,7 +330,8 @@ class MusicPlayer(EventEmitter, Serializable):
                 self._source = SourcePlaybackCounter(
                     PCMVolumeTransformer(
                         FFmpegPCMAudio(
-                            entry.filename,
+                            #executable="C:/path/ffmpeg.exe",
+                            executable=entry.filename,
                             before_options=boptions,
                             options=aoptions,
                             stderr=subprocess.PIPE,
