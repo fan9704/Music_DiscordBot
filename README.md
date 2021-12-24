@@ -22,3 +22,48 @@ There are many commands that can be used with the bot. Most notably, the `play <
 
 * [Support Discord server](https://discord.gg/bots)
 * [Project license](LICENSE)
+
+### Depoly to Heroku
+! should add buildpack cause this system not support Unix-like system
+1. https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+2. https://github.com/xrisk/heroku-opus
+! If you didn,t add these two buildpack music bot won,t play music not matter any condition
+
+### User Guide
+[Command]
+
+play some youtube music
+1. !play [youtube_url] 
+
+Search a command relation method
+2. !help [command]
+
+Music playlist queue
+3. !queue
+
+Now music bot playing Music
+4. !np
+
+skip this music
+5. !skip
+
+shuffle this music queue
+6. !shuffle
+
+Clear this music queue
+7. !clear
+
+pasue now playing
+8. !pause
+
+resume now playing
+9. !resume
+
+modify music sound
+10. !volume [number] 
+
+Connect music bot to your current channel
+11. !summon
+
+add this currenet song to autoplaylist
+12. !save
