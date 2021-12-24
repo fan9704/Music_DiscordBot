@@ -9,4 +9,4 @@ ffmpeg
 discord
 youtube-dl
 requests
-discord.py[voice]1
+discord.py[voice]
