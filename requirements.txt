@@ -10,3 +10,4 @@ discord
 youtube-dl
 requests
 discord.py[voice]
+aiohttp
