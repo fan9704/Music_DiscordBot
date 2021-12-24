@@ -8,6 +8,12 @@ pynacl = "*"
 py-cord = {extras = ["voice"], version = "*"}
 yt-dlp = "*"
 colorlog = "*"
+aiohttp = "*"
+ffmpeg = "*"
+youtube-dl = "*"
+discord = "*"
+"discord.py" = "*"
+requests = "*"
 
 [dev-packages]
 
