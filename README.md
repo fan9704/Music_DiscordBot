@@ -67,3 +67,7 @@ Connect music bot to your current channel
 
 add this currenet song to autoplaylist
 12. !save
+
+### Related Article
+[Gamer](https://home.gamer.com.tw/creationDetail.php?sn=3921950)
+[Made By Own Bot](https://www.coder.work/article/7581238)
